@@ -7,3 +7,4 @@ RUN wget -P /usr/share/keyrings https://github.com/smlsharp/repos/raw/main/debia
 RUN wget -P /etc/apt/sources.list.d https://github.com/smlsharp/repos/raw/main/debian/dists/buster/smlsharp.list
 RUN apt-get -y update
 RUN apt-get -y install smlsharp
+RUN apt-get -y install rlwrap
